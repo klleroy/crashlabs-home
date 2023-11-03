@@ -1,4 +1,3 @@
-.profileImg {
-   float: left;
-   margin: 5px 20px;
+main > .container {
+   padding: 60px 15px 0;
 }
