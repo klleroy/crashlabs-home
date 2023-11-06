@@ -1,0 +1,23 @@
+[
+	{
+		"id": 1,
+		"image": "/images/computerRepair.jpeg",
+		"serviceTitle": "Computer Repair",
+		"desc": "I am an experienced Technician with a background in both MacOS and Windows Environments",
+		"alt": "Repair"
+	},
+	{
+		"id": 2,
+		"image": "/images/networkAdmin.jpeg",
+		"serviceTitle": "Network Setup",
+		"desc": "As a former IT Operations Manager, I have had experience in both managing and setup of Network Infrastructure.",
+		"alt": "network"
+	},
+	{
+		"id": 3,
+		"image": "/images/websiteCreation.jpeg",
+		"serviceTitle": "Website Creation",
+		"desc": "I have experience in both Website creation and management of both CMS and full web applications.",
+		"alt": "website"
+	}
+]

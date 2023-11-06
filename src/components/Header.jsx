@@ -1,6 +1,6 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { FaRegEnvelope, FaUserFriends, FaUsersCog } from 'react-icons/fa';
-import logo from '../assets/images/logo50x50.png';
+import logo from '/images/logo50x50.png';
 
 const Header = () => {
 	return (
@@ -20,7 +20,7 @@ const Header = () => {
 								Services &nbsp;
 								<FaUsersCog />
 							</Nav.Link>
-							<Nav.Link href='/contact-us'>
+							<Nav.Link href='/contact'>
 								Contact &nbsp;
 								<FaRegEnvelope />
 							</Nav.Link>

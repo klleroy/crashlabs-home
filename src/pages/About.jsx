@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import family from '../assets/images/family.jpeg';
+import family from '/images/family.jpeg';
 
 const bios = [
 	'I am a collaborative and solutions driven Full Stack Web Developer specializing in the MERN Stack with over ten years of technical experience in both QA Automation and Program Management. Effective at coupling creativity, critical thinking, and problem solving to develop effective solutions positively impacting the business and customer.',
