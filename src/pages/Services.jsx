@@ -12,7 +12,7 @@ const Service = ({ image, alt, serviceTitle, desc }) => (
 const Services = () => {
 	return (
 		<>
-			<Container className='mt-5'>
+			<Container>
 				<Row>
 					<Col>
 						<h1>Services</h1>
