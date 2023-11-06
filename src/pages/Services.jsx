@@ -2,8 +2,8 @@ import { Row, Col, Image, Container } from 'react-bootstrap';
 import data from '../assets/data.json';
 
 const Service = ({ image, alt, serviceTitle, desc }) => (
-	<Col lg={3} md={6} className='pt-4'>
-		<Image src={image} alt={alt} className='text-center' />
+	<Col className='pt-4 text-center'>
+		<Image src={image} alt={alt} />
 		<p className='fw-bold text-center'>{serviceTitle}</p>
 		<p>{desc}</p>
 	</Col>

@@ -1,4 +1,4 @@
-import { Image } from 'react-bootstrap';
+import { Row, Col, Image } from 'react-bootstrap';
 
 const HomePage = () => {
 	return (
@@ -7,9 +7,11 @@ const HomePage = () => {
 			<p className='text-center'>
 				A SMALL BUT FRIENDLY IT FIRM IN THE SOUTHEAST VALLEY OF ARIZONA
 			</p>
-			<div className='text-center'>
-				<Image src='/images/logo.png' />
-			</div>
+			<Row>
+				<Col className='text-center'>
+					<Image src='/images/logo.png' className='img-fluid' />
+				</Col>
+			</Row>
 		</>
 	);
 };
