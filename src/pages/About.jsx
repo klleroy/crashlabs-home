@@ -2,7 +2,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import family from '/images/family.jpeg';
 
 const bios = [
-	'CrashLabs is a full service Technology Company in the East Valley of Phoenix, AZ. I specialize in Network Support and Computer Repair.',
+	'CrashLabs is a full service Technology Company in the East Valley of Phoenix, AZ. I specialize in Network Support, Computer Repair and Website Management/Creation.',
 
 	'I have over fifteen years of technical experience in Web Development, Cloud Computing and Server Management. I aim to bring effective practical solutions which will positively impact your business.',
 
@@ -10,7 +10,7 @@ const bios = [
 
 	"When I'm not hanging with the family, I enjoy watching Sports. I especially love watching Baseball and College Basketball. Having lived in the Seattle area for a number of years, it is incredibly exciting to watch Playoff Baseball. Go Dbacks!!",
 
-	'I would love to bring my passion for quality and technology to your company. I look forward to hearing from you!',
+	'I would love to bring my passion for quality and technology to help your Company become succesful. I look forward to hearing from you!',
 ];
 
 const About = () => {
