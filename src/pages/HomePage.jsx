@@ -5,7 +5,7 @@ const HomePage = () => {
 		<>
 			<h1 className='text-center'>Welcome to CrashLabs</h1>
 			<p className='text-center'>
-				A SMALL BUT FRIENDLY IT FIRM IN THE SOUTHEAST VALLEY OF ARIZONA
+				A small but friendly IT Firm in the Southeast Valley of Arizona
 			</p>
 			<Row>
 				<Col className='text-center'>
