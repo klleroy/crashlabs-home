@@ -2,6 +2,10 @@ main > .container {
    padding: 60px 15px 0;
 }
 
+.nav-link {
+  color: #fff;
+}
+
 form {
    margin-top: 20px;
  }
