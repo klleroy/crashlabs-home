@@ -18,25 +18,19 @@ const Header = () => {
 					<Navbar.Collapse id='basic-navbar-nav'>
 						<Nav className='ms-auto'>
 							<LinkContainer to='/about'>
-								<Nav.Link
-									className={({ isActive }) => (isActive ? 'active' : '')}
-								>
+								<Nav.Link active={false}>
 									About &nbsp;
 									<FaUserFriends />
 								</Nav.Link>
 							</LinkContainer>
 							<LinkContainer to='/services'>
-								<Nav.Link
-									className={({ isActive }) => (isActive ? 'active' : '')}
-								>
+								<Nav.Link active={false}>
 									Services &nbsp;
 									<FaUsersCog />
 								</Nav.Link>
 							</LinkContainer>
 							<LinkContainer to='/contact'>
-								<Nav.Link
-									className={({ isActive }) => (isActive ? 'active' : '')}
-								>
+								<Nav.Link active={false}>
 									Contact &nbsp;
 									<FaRegEnvelope />
 								</Nav.Link>
