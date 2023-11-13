@@ -9,6 +9,8 @@ const bios = [
 	'On a personal level, I have several passions that keep me busy outside of work. First and foremost, I have 2 daughters who are active in their sporting activities. Our oldest, is just ramping up her volleyball career after being involved in competitive dance for a few years. While our youngest, is involved in American Ninja Warrior which keeps her and us quite busy!',
 
 	"When I'm not hanging with the family, I enjoy watching sports. I especially love watching MLB Baseball (Go Dbacks!) and College Basketball. Having lived in the Seattle area for a number of years, it was incredibly exciting to watch Playoff Baseball this season. We have also recently found a love of camping and have taken a few trips and are looking forward to more this next year.",
+
+	'I look forward to helping your business become successful by serving your technology needs.',
 ];
 
 const About = () => {
