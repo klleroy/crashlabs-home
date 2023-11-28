@@ -1,8 +1,9 @@
-import { Row, Col, Image } from 'react-bootstrap';
+import { Row, Col, Image, Container } from 'react-bootstrap';
 
 const HomePage = () => {
 	return (
 		<>
+		<Container>
 			<h1 className='text-center'>Welcome to CrashLabs</h1>
 			<p className='text-center'>
 				A small but friendly IT Firm in the Southeast Valley of Arizona
@@ -12,6 +13,7 @@ const HomePage = () => {
 					<Image src='/images/logo.png' className='img-fluid' />
 				</Col>
 			</Row>
+			</Container>
 		</>
 	);
 };
