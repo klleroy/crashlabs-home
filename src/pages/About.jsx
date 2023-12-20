@@ -10,7 +10,7 @@ const bios = [
 
 	"When I'm not hanging with the family, I enjoy watching sports. I especially love watching MLB Baseball (Go Dbacks!) and College Basketball. Having lived in the Seattle area for a number of years, it was incredibly exciting to watch Playoff Baseball this season. We have also recently found a love of camping and have taken a few trips and are looking forward to more this next year.",
 
-	'I look forward to helping your business become successful by serving your technology needs.',
+	'Below is an interview I did with the local Chamber of Commerce, here in Queen Creek, where you can learn more about me and my business. I look forward to helping your business become successful by serving your technology needs.',
 ];
 
 const About = () => {
@@ -30,6 +30,16 @@ const About = () => {
 							{bios.map((bio, key) => (
 								<p key={key}>{bio}</p>
 							))}
+							<div className='video-container'>
+								<iframe
+									width='560'
+									height='315'
+									src='https://www.youtube-nocookie.com/embed/emz_WH0HBBg?si=UQbaGqH7q8S0wH11'
+									title='YouTube video player'
+									allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+									allowFullScreen
+								></iframe>
+							</div>
 						</Container>
 					</Col>
 				</Row>
