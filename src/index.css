@@ -32,6 +32,8 @@ form {
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
+  border: #000 1px solid;
+  border-radius: 5px;
 }
 
 .video-container iframe {
