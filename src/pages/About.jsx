@@ -2,7 +2,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import family from '/images/family.jpeg';
 
 const bios = [
-	'CrashLabs is a full service Technology Company in the East Valley of Phoenix, AZ. I specialize in Network Support, Computer Repair and Website Management/Creation.',
+	'At CrashLabs, my mission is to empower businesses with cutting-edge technology solutions that drive efficiency,security, and growth. I believe in leveraging the power of the cloud to streamline operations and elevate your digital presence.',
 
 	'I have over fifteen years of technical experience in Web Development, Cloud Computing and Server Management. I worked at Microsoft for 10 years during which time I was involved in testing and deploying Operating Systems and Servers. I also managed the IT Infrastructure which included the deployment of Azure cloud services, Ubiquiti WiFi system and network patch panels. I aim to bring effective practical solutions which will positively impact your business.',
 
